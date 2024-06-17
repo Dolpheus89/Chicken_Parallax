@@ -140,7 +140,7 @@ useEffect(() => {
 
 - Pour chaque balise concernée, ajoutez l'attribut :
 
-`style={{ transform: ``translateX(${offsetY * -0.2}px)`` }}`
+`style={{ transform: `translateX(${offsetY * -0.2}px)` }}`
 
 - Chaque élément qui a ce style est transformé en fonction de offsetY. 
 - Essayez différentes valeurs positives ou négatives pour ajuster la vitesse et la direction du mouvement. Les éléments doivent avoir des valeurs différentes (vitesse) pour observer l'animation de l'effet parallaxe.
