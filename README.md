@@ -77,7 +77,7 @@ Lors du défilement, l'arrière-plan bouge légèrement,  les feuilles du plan i
 - position : 
     - La propriété position: relative; est utilisée pour positionner l'élément par rapport à sa position normale sans affecter les autres éléments.
     - la position absolute : L'élément est retiré du flux normal et aucun espace n'est créé pour l'élément sur la page. Il est ensuite positionné par rapport à son ancêtre le plus proche qui est positionné (ici, le position: relative sur le header).
-- z-index : La propriété z-index: 10; définit l'ordre des couches des éléments. Elle est efficace uniquement sur les éléments ayant une propriété CSS position.
+- z-index : La propriété z-index: 1; définit l'ordre des couches des éléments. Elle est efficace uniquement sur les éléments ayant une propriété CSS position.
 
 ### Phase 4 : Positionnement des images
 
